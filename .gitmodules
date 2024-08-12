@@ -1,0 +1,12 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/MAAAAE/panama-canal-backend.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/MAAAAE/panama-canal-frontend.git
+[submodule "keycloak"]
+	path = keycloak
+	url = https://github.com/MAAAAE/keycloak.git
+[submodule "gateway"]
+	path = gateway
+	url = https://github.com/MAAAAE/panama-canal-gateway.git
