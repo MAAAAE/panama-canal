@@ -51,6 +51,9 @@
      - 백엔드에서 제공하는 API를 사용하여 사용자 관리, 프록시 및 카테고리 설정 등록
      - Keycloak과 연동하여 사용자 인증 및 세션 관리.
 
+## Architecture Overview
+![image](https://github.com/user-attachments/assets/398e846f-24aa-413f-9488-6d73f252bea6)
+
 
 ## Key Features
 
