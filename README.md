@@ -52,7 +52,8 @@
      - Keycloak과 연동하여 사용자 인증 및 세션 관리.
 
 ## Architecture Overview
-![image](https://github.com/user-attachments/assets/398e846f-24aa-413f-9488-6d73f252bea6)
+![image](https://github.com/user-attachments/assets/5c730575-2b87-4157-b724-8d64c378493b)
+
 
 
 ## Key Features
