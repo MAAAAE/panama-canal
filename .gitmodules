@@ -1,16 +1,16 @@
 [submodule "backend"]
 	path = backend
 	url = https://github.com/MAAAAE/panama-canal-backend.git
-	branch = develop
+	branch = main
 [submodule "frontend"]
 	path = frontend
 	url = https://github.com/MAAAAE/panama-canal-frontend.git
-	branch = develop
+	branch = main
 [submodule "keycloak"]
 	path = keycloak
 	url = https://github.com/MAAAAE/keycloak.git
-	branch = develop
+	branch = main
 [submodule "gateway"]
 	path = gateway
 	url = https://github.com/MAAAAE/panama-canal-gateway.git
-	branch = develop
+	branch = main
