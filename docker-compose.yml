@@ -14,6 +14,7 @@ services:
     environment:
       VITE_API_BASE_URL: http://localhost:80
       KEYCLOAK_URL: http://keycloak:18080
+    restart: always
     networks:
       - my_network
   backend:
@@ -30,6 +31,7 @@ services:
       SPRING_DATASOURCE_URL: jdbc:sqlite:/data/panama.db?cache=shared
       ENCRYPTION_KEY: 1234567891234567
       GATEWAY_URL: http://gateway:8888
+    restart: always
     volumes:
       - ./data:/data
     networks:
@@ -45,6 +47,7 @@ services:
       GATEWAY_PORT: 8888
       SPRING_DATASOURCE_URL: jdbc:sqlite:/data/panama.db?cache=shared
       ENCRYPTION_KEY: 1234567891234567
+    restart: always
     volumes:
       - ./data:/data
     networks:
